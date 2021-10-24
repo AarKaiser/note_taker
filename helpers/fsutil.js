@@ -1,4 +1,4 @@
-// This entire utility file was copied from this week's MiniProject!!!
+// The majority of the utility file was copied from this week's MiniProject (Module 11, Activity 28)!!!
 
 const fs = require('fs');
 const util = require('util');
