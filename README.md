@@ -16,7 +16,7 @@ Lessons: - Routing, and using and deploying to Heroku.
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Dependencies](#dependencies)
-  - [Usage:](#usage)
+  - [Usage](#usage)
   - [Contributing](#contributing)
   - [Licenses](#licenses)
   - [Tests](#tests)
@@ -32,7 +32,7 @@ NPM i
 
 This application requires: N/A.
 
-## Usage: 
+## Usage
 
 This application can be used by accessing the provided URL directly.
 
