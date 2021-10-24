@@ -1,7 +1,7 @@
 
 # Note Taker
           
-## Description:
+## Description
 
 Summary: - This app takes, stores, and retrieves notes on a web interface.
 Motivation: - The ability to create notes while in Boot Camp.
@@ -9,26 +9,26 @@ Reason for Application: - So that I can practie and strengthen my coding skills.
 Problem Solved: - Saves time taking notes over the pen and paper method.
 Lessons: - Routing, and using and deploying to Heroku.
 
-## Table of Contents:
+## Table of Contents
 
 - [Note Taker](#note-taker)
-  - [Description:](#description)
-  - [Table of Contents:](#table-of-contents)
-  - [Installation:](#installation)
-  - [Dependencies:](#dependencies)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Dependencies](#dependencies)
   - [Usage:](#usage)
-  - [Contributing:](#contributing)
-  - [Licenses:](#licenses)
-  - [Tests:](#tests)
-  - [Technologies Used:](#technologies-used)
-  - [Questions:](#questions)
+  - [Contributing](#contributing)
+  - [Licenses](#licenses)
+  - [Tests](#tests)
+  - [Technologies Used](#technologies-used)
+  - [Questions](#questions)
   - [Screenshot](#screenshot)
 
-## Installation: 
+## Installation
 
 NPM i
 
-## Dependencies:
+## Dependencies
 
 This application requires: N/A.
 
@@ -36,26 +36,26 @@ This application requires: N/A.
 
 This application can be used by accessing the provided URL directly.
 
-## Contributing:
+## Contributing
 
 Aar
 
 
-## Licenses:
+## Licenses
 
 ![License Badge](https://img.shields.io/badge/mit-license-blue)
 Click [here](https://choosealicense.com/licenses/mit) for MIT license information
 
 
-## Tests:
+## Tests
 
 N/A
 
-## Technologies Used: 
+## Technologies Used
 
 This application uses the following technologies: HTML, CSS, JavaScript, Bootstrap, Node, Express, Heroku.
 
-## Questions:
+## Questions
 
 Github: https://www.github.com/aarkaiser
 Email: dev@aarkaiser.com.
