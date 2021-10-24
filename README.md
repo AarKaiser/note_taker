@@ -38,8 +38,8 @@ This application can be used by accessing the provided URL directly.
 
 ## Contributing
 
-Aar
-
+Back End: Aar
+Front End: UofT Bootcamp Starter Code
 
 ## Licenses
 
