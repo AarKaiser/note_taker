@@ -23,6 +23,8 @@ const readAndAppend = (content, file) => {
 };
 
 // Will figure out how to delete for BONUS points.
-const deleteNote = (noteID, file) => {};
+const deleteNote = (content, file) => {
+
+};
 
 module.exports = { deleteNote, readFromFile, writeToFile, readAndAppend };
