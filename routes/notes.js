@@ -1,5 +1,6 @@
 // Required
 const notes = require("express").Router();
+const { v4: uuidv4 } = require('uuid');
 const {
   deleteNote,
   readFromFile,
@@ -19,7 +20,7 @@ notes.post("/", (req, res) => {
   const { id, title, text } = req.body;
 
   if (req.body) {
-    const newID = "1"  
+    const newID = uuidv4();  
     const newNote = {
       id: newID,
       title,
