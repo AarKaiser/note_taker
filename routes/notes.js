@@ -37,8 +37,7 @@ notes.post("/", (req, res) => {
 // Delete previous notes
 
 notes.delete("/:id"), (req, res) => {
-    const delNote = req.params.id;
-    readFromFile("./db/db.json.");
+    deleteNote(uuidv4)
 }
 
 // Exporting Notes
