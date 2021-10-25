@@ -30,7 +30,7 @@ NPM i
 
 ## Dependencies
 
-This application requires: N/A.
+This application requires: Express, UUID.
 
 ## Usage
 
