@@ -19,8 +19,9 @@ notes.post("/", (req, res) => {
   const { id, title, text } = req.body;
 
   if (req.body) {
+    const newID = "1"  
     const newNote = {
-      id,
+      id: newID,
       title,
       text,
     };
