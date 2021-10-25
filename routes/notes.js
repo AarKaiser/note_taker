@@ -20,7 +20,8 @@ notes.post("/", (req, res) => {
   const { id, title, text } = req.body;
 
   if (req.body) {
-    const newID = uuidv4();  
+    const newID = uuidv4();
+    console.log(newID);  
     const newNote = {
       id: newID,
       title,
@@ -28,11 +29,17 @@ notes.post("/", (req, res) => {
     };
     readAndAppend(newNote, "./db/db.json");
     res.json(`New note created!`);
-    //   console.log(newNote);
   } else {
     res.error(`Failed to create note!`);
   }
 });
+
+// Delete previous notes
+
+notes.delete("/:id"), (req, res) => {
+    const delNote = req.params.id;
+    readFromFile("./db/db.json.");
+}
 
 // Exporting Notes
 module.exports = notes;
