@@ -2,7 +2,6 @@
 const notes = require('express').Router();
 const { deleteNote, readFromFile, writeToFile, readAndAppend } = require('../helpers/fsutil');
 
-// 
 
 // Route for all notes
 
@@ -10,4 +9,4 @@ const { deleteNote, readFromFile, writeToFile, readAndAppend } = require('../hel
 
 
 // Exporting Notes
- module.exporst = notes;
+ module.exports = notes;
