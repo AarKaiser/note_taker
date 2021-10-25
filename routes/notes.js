@@ -1,6 +1,6 @@
 // Required
 const notes = require("express").Router();
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4 } = require("uuid");
 const {
   deleteNote,
   readFromFile,
@@ -21,7 +21,7 @@ notes.post("/", (req, res) => {
 
   if (req.body) {
     const newID = uuidv4();
-    console.log(newID);  
+    console.log(newID);
     const newNote = {
       id: newID,
       title,
@@ -36,9 +36,10 @@ notes.post("/", (req, res) => {
 
 // Delete previous notes
 
-notes.delete("/:id"), (req, res) => {
-    deleteNote(uuidv4)
-}
+notes.delete("/:id"),
+  (req, res) => {
+    deleteNote(uuidv4);
+  };
 
 // Exporting Notes
 module.exports = notes;

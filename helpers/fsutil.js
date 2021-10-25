@@ -1,7 +1,7 @@
 // The majority of the utility file was copied from this week's MiniProject (Module 11, Activity 28)!!!
 
-const fs = require('fs');
-const util = require('util');
+const fs = require("fs");
+const util = require("util");
 
 const readFromFile = util.promisify(fs.readFile);
 
@@ -11,7 +11,7 @@ const writeToFile = (destination, content) =>
   );
 
 const readAndAppend = (content, file) => {
-  fs.readFile(file, 'utf8', (err, data) => {
+  fs.readFile(file, "utf8", (err, data) => {
     if (err) {
       console.error(err);
     } else {
@@ -23,8 +23,6 @@ const readAndAppend = (content, file) => {
 };
 
 // Will figure out how to delete for BONUS points.
-const deleteNote = (noteID, file)=> {
-
-}
+const deleteNote = (noteID, file) => {};
 
 module.exports = { deleteNote, readFromFile, writeToFile, readAndAppend };
