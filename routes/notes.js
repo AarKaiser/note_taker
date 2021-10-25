@@ -34,11 +34,11 @@ notes.post("/", (req, res) => {
   }
 });
 
-// Delete previous notes
+// Route for note deletion
 
 notes.delete("/:id"),
   (req, res) => {
-    deleteNote(uuidv4);
+    deleteNote(req.params.id);
   };
 
 // Exporting Notes
