@@ -23,8 +23,19 @@ const readAndAppend = (content, file) => {
 };
 
 // Delete entries
-const deleteNote = (content, file) => {
-  content.filter(entry => entry.id !== req.params.id)
+
+const deleteNote = (toDelete, file) => {
+  fs.readFile(file, "utf8", (err, data) => {
+    if (err) {
+      console.error(err);
+    } else {
+      const parsedData = JSON.parse(data);
+      console.log(parsedData)
+      filteredDB = parsedData.filter(item => item.id !== toDelete);
+      writeToFile(file, filteredDB);
+      return filteredDB;
+    }
+  });
 };
 
 module.exports = { deleteNote, readFromFile, writeToFile, readAndAppend };
