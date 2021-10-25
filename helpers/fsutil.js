@@ -22,9 +22,8 @@ const readAndAppend = (content, file) => {
   });
 };
 
-
 // Will figure out how to delete for BONUS points.
-const deleteNote = ()=> {
+const deleteNote = (noteID, file)=> {
 
 }
 

@@ -38,8 +38,7 @@ This application can be accessed on Heroku [here](https://aarnotetaker.herokuapp
 
 ## Contributing
 
-Back End: Aar
-Front End: UofT Bootcamp Starter Code
+Aar, with front end provided via starter-code.
 
 ## Licenses
 

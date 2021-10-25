@@ -16,22 +16,21 @@ notes.get("/", (req, res) => {
 // Route for posting notes
 
 notes.post("/", (req, res) => {
-    const {id, title, text} = req.body;
+  const { id, title, text } = req.body;
 
-if (req.body) {
-  const newNote = {
-    id,
-    title,
-    text,
-  };
-  readAndAppend(newNote, "./db/db.json");
-  res.json(`New note created!`);
-//   console.log(newNote);
-} else {
-  res.error(`Failed to create note!`);
-}
-  });
-
+  if (req.body) {
+    const newNote = {
+      id,
+      title,
+      text,
+    };
+    readAndAppend(newNote, "./db/db.json");
+    res.json(`New note created!`);
+    //   console.log(newNote);
+  } else {
+    res.error(`Failed to create note!`);
+  }
+});
 
 // Exporting Notes
 module.exports = notes;
