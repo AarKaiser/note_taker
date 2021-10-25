@@ -1,29 +1,37 @@
 // Required
-const notes = require('express').Router();
-const { deleteNote, readFromFile, writeToFile, readAndAppend } = require('../helpers/fsutil');
+const notes = require("express").Router();
+const {
+  deleteNote,
+  readFromFile,
+  writeToFile,
+  readAndAppend,
+} = require("../helpers/fsutil");
 
-
-// Route for retrieving all notes
+// Route for retrieving notes
 
 notes.get("/", (req, res) => {
-    readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)))
+  readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
 });
 
-// const {id, title, text } = req.body;
+// Route for posting notes
 
-// if (req.body) {
-//     const newNote = {
-//         id,
-//         title,
-//         text,
-//     };
+notes.post("/", (req, res) => {
+    const {id, title, text} = req.body;
 
-//     readAndAppend(newNote, './db/db.json');
-//     res.json(`New note created!`);
-//     console.log(newNote);
-// } else {
-//     res.error(`Failed to create note!`)
-// }
+if (req.body) {
+  const newNote = {
+    id,
+    title,
+    text,
+  };
+  readAndAppend(newNote, "./db/db.json");
+  res.json(`New note created!`);
+//   console.log(newNote);
+} else {
+  res.error(`Failed to create note!`);
+}
+  });
+
 
 // Exporting Notes
- module.exports = notes;
+module.exports = notes;
