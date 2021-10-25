@@ -36,13 +36,12 @@ notes.post("/", (req, res) => {
 
 // Route for note deletion
 
-notes.delete("/:id",
-  (req, res) => {
-    console.log("Work FFS!")
-    const toDelete = req.params.id;
-    filtered = deleteNote(toDelete, './db/db.json');
-    res.json(filtered);
-  });
+notes.delete("/:id", (req, res) => {
+  console.log("Work FFS!");
+  const toDelete = req.params.id;
+  filtered = deleteNote(toDelete, "./db/db.json");
+  res.json(filtered);
+});
 
 // Exporting Notes
 module.exports = notes;
