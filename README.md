@@ -34,7 +34,7 @@ This application requires: N/A.
 
 ## Usage
 
-This application can be used by accessing the provided URL directly.
+This application can be used by accessing on Heroku [here](https://aarnotetaker.herokuapp.com/).
 
 ## Contributing
 
