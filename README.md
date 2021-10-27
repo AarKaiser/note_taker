@@ -34,7 +34,7 @@ This application requires: Express, UUID.
 
 ## Usage
 
-This application can be accessed on Heroku [here](https://aarnotetaker.herokuapp.com/). DID YOU NOT SEE THIS HERE THE FIRST TIME!?!?!?!?!!?
+This application can be accessed on Heroku [here](https://aarnotetaker.herokuapp.com/).
 
 ## Contributing
 
