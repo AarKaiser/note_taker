@@ -61,6 +61,10 @@ Email: dev@aarkaiser.com.
 
 Please feel free to contact me with further questions via email, which is my prefered method.
 
-## Screenshot
+## Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/AarKaiser/note_taker/main/assets/images/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/AarKaiser/note_taker/main/assets/images/screenshot_1.png)
+
+![Screenshot](https://raw.githubusercontent.com/AarKaiser/note_taker/main/assets/images/screenshot_2.png)
+
+![Screenshot](https://raw.githubusercontent.com/AarKaiser/note_taker/main/assets/images/screenshot_3.png)
