@@ -34,7 +34,7 @@ This application requires: Express, UUID.
 
 ## Usage
 
-This application can be accessed on Heroku [here](https://aarnotetaker.herokuapp.com/).
+This application can be accessed on Heroku [here](https://aarnotetaker.herokuapp.com/). DID YOU NOT SEE THIS HERE THE FIRST TIME!?!?!?!?!!?
 
 ## Contributing
 
@@ -62,3 +62,5 @@ Email: dev@aarkaiser.com.
 Please feel free to contact me with further questions via email, which is my prefered method.
 
 ## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/AarKaiser/note_taker/main/assets/images/screenshot.png)
