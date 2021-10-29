@@ -38,7 +38,7 @@ This application can be accessed on Heroku [here](https://aarnotetaker.herokuapp
 
 ## Contributing
 
-Aar, with front end provided via starter-code.
+[Aar](https://www.github.com/aarkaiser), with front end provided via starter-code.
 
 ## Licenses
 
