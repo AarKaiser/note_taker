@@ -12,17 +12,17 @@ Lessons: - Routing, and using and deploying to Heroku.
 ## Table of Contents
 
 - [Note Taker](#note-taker)
-1. [Description](#description)
-2. [Table of Contents](#table-of-contents)
-3. [Installation](#installation)
-4. [Dependencies](#dependencies)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [Licenses](#licenses)
-8. [Tests](#tests)
-9. [Technologies Used](#technologies-used)
-10. [Questions](#questions)
-11. [Screenshot](#screenshot)
+    1. [Description](#description)
+    2. [Table of Contents](#table-of-contents)
+    3. [Installation](#installation)
+    4. [Dependencies](#dependencies)
+    5. [Usage](#usage)
+    6. [Contributing](#contributing)
+    7. [Licenses](#licenses)
+    8. [Tests](#tests)
+    9. [Technologies Used](#technologies-used)
+    10. [Questions](#questions)
+    11. [Screenshot](#screenshot)
 
 ## Installation
 
